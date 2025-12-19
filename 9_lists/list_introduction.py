@@ -172,4 +172,3 @@ else:
     print(f"Day {check_day} Doesn't Exist")
 
 print(dir(list_value))
-
