@@ -90,7 +90,7 @@ print(list_nums)
 
 # list_nums.extend([70,80],[90,100]) --> TypeError: list.extend() takes exactly one argument (2 given)
 print(list_nums)
-
+print("insert  ")
 list_nums = [10,30,40,50]
 print(list_nums)
 list_nums.insert(1,20)
