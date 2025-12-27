@@ -1,0 +1,31 @@
+-> Modules 
+
+    -> Module - It's a simply python file that contains
+        -> Python Definitions (Variables, Functions, Classes)
+        -> Python Statements
+
+    -> Allows you to reuse the code across multiple Programs, by importing that Module 
+        instead of rewriting the code multiple times
+        
+        -> Code Reusability
+        -> Code Organization
+        -> Logical Separation Of Code
+
+    -> Types Of Modules
+
+        -> User Defined Modules
+            -> You create your own modules based on your requirement
+        -> Built In Modules
+            -> Pre-Installed comes with Python (math, random, sys, os etc)
+        -> External Modules
+            -> Modules provided by 3rd parties and communities, download and install
+                (Numpy, Pandas etc)
+
+
+    -> User Defined modules
+
+        -> Modules you create by yourself i.e simply a .py file
+
+    -> External Modules
+
+        -> PIP - Python Package Manager
