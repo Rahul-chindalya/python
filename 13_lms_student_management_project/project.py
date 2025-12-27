@@ -14,7 +14,7 @@ ADMIN_INFO = ("admin@edify","101","+91-8899774455")
 #      4. Display system info at the start
 print("*"*50)
 print(f"Wlecome to {SYSTEM_INFO[0]} {SYSTEM_INFO[1]}")
-print(f"Developred By {SYSTEM_INFO[2]} In The Year{SYSTEM_INFO[3]}")
+print(f"Developred By {SYSTEM_INFO[3]} In The Year{SYSTEM_INFO[2]}")
 print("*"*50)
 
 # Create an appropriate data structures to store all students
