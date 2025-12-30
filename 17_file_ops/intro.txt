@@ -1,0 +1,22 @@
+-> File Operations
+
+    -> File operations in python allows for creating, reading, updating and deleting
+
+    -> When working with data(persistent data), we want data to be stored 
+        beyond programs execution
+    
+    -> Opening File (Working with existing files)
+
+        -> 1st Approach using open function, and modes 
+            -> r - read (reading data)
+            -> w - write (will overwrite if file doesn't exist creates)
+            -> a - append (add to existing)
+
+        -> 2nd Approach using with open and modes    
+
+    -> NOTE - 1st approach file will not close automatically
+              2nd approach file will close automatically  
+
+    
+    -> Create a file
+        -> Using open with write mode, creates a file
