@@ -31,40 +31,6 @@
 #     returns None 
 
 
-# -> Instance Variables
-
-#     -> Instance Variables/Attributes are variables that belong to an object (instance), not the class.
-    
-#     -> Instance variables are commonly defined in the __init__ method (constructor) 
-#         using the self keyword
-        
-#     -> Each object has its own copy of instance variables with potentially different values, 
-#         meaning modifying an instance variable in one object does not affect the same variable 
-#         in other objects
-    
-#     -> Accessed via self.variable_name
-
-# -> Instance Methods
-
-#     -> Methods inside a class that operate on instance variables i.e 
-#         Operate on object (instance) data.
-    
-#     -> Most common type of methods in Python classes.
-
-#     -> Instance methods always take self as the first parameter 
-#         (represents the object calling it).
-    
-#     -> Can access instance variables and class variables
-
-#     -> called using object_name.method().
-
-#     -> instance methods cannot be called with Classname
-
-#    ->  Instance Variable + Instance Method Relationship
-#             -> Instance variables store data for each object.
-#             -> Instance methods use self to access & modify that data.
-
-
 # -> Class variables
 
 #     -> Class Variables are shared data i.e data is shared across all the instances(Objects) of class
@@ -103,7 +69,7 @@
 
 
 ########################################################################################################
-Student
+#Student
 class Student:
     # attributes 
     student_name = "ravi"
