@@ -31,42 +31,6 @@
 #     returns None 
 
 
-# -> Class variables
-
-#     -> Class Variables are shared data i.e data is shared across all the instances(Objects) of class
-
-#     -> Class Variables Belong to a class, rather than objects
-
-#     -> Defined inside the class, but outside the methods.
-
-#     -> Access
-
-#         -> We can use ClassName.variable 
-#         -> We can use object or self (But preferred is always classname ) 
-
-#     -> If class variable is changed, it will reflect all the objects calling on it
-
-#     -> For Memory efficiency, as only one copy of class variable is create, though 100's of objects
-#          are using it
-
-# -> Class Methods
-
-#     -> Methods defined inside the class, that will operate on class variables
-
-#     -> Not very commonly used like instance methods
-
-#     -> Class methods are more bound to classes, but not objects
-
-#     -> Take cls as a first parameter (cls refers as class, self refers to object) 
-
-#     -> These methods cannot act(modify) instance data / Variables
-
-#     -> NOTE : We use @classmethod decorator for class methods
-
-# -> Class Variable + Class Method Relationship
-#     -> Class variables store data common to all objects.
-#     -> Class methods change or use that shared data. 
-
 
 ########################################################################################################
 #Student
@@ -88,12 +52,12 @@ class Student:
         
 student_ravi_obj = Student("ravi","ravi@gmail.com")
 student_krishna_obj = Student("krishna","krishna@gmail.com")
-student_obj = Student()
-print(student_obj)
-print(student_obj.student_name)
-print(student_obj.student_email)
-student_obj.info() # TypeError: info() takes 0 positional arguments but 1 was given
-Student.info() # TypeError: info() missing 1 required positional argument: 'self'
+#student_obj = Student() #TypeError: Student.__init__() missing 2 required positional arguments: 'student_name' and 'student_email'
+#print(student_obj)
+#print(student_obj.student_name)
+#print(student_obj.student_email)
+#student_obj.info() # TypeError: info() takes 0 positional arguments but 1 was given
+#Student.info() # TypeError: info() missing 1 required positional argument: 'self'
 
     
 # define a function

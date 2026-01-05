@@ -33,10 +33,6 @@
 
 
 class Student:
-    
-    # Class Variable common data for all objects of student class
-    institute_name = "Edify"
-    
     # using constructor
     def __init__(self,student_name,student_email):
         self.student_name = student_name
@@ -44,8 +40,6 @@ class Student:
     
     # your methods
     def info(self):
-        print("Student Institute: ",Student.institute_name) # preferred for class variables
-        # print("Student Institute: ",self.institute_name) - not preferred for class variables
         print("Student Name: ",self.student_name)
         print("Student Email: ",self.student_email)
         
